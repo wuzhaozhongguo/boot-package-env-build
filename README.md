@@ -22,7 +22,7 @@
 <pre>
     <code>
         docker run --rm \
-        -e TOKEN_GIT_URL="https://账号:[token]@gitee.com/xxx/xxxx.git" \
+        -e TOKEN_GIT_URL="${giturl}" \
         -e BUILD_ID="dev-boot-demo" \
         --name=boot-package-run-temp \
         -v maven-repo:/root/.m2/repository -v /var/lib/boot-build/:/app/package \
