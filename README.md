@@ -26,7 +26,7 @@
         -e BUILD_ID="dev-boot-demo" \
         --name=boot-package-run-temp \
         -v maven-repo:/root/.m2/repository -v /var/lib/boot-build/:/app/package \
-        xxxxx/boot-package
+        domain/namespace/boot-package
     </code>
 </pre>
 参数:
